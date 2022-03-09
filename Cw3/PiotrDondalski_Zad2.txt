@@ -1,0 +1,83 @@
+T1: jedzie(student,rower)
+T2: jedzie(student,X)
+
+σ1: X = rower
+
+1.
+T1σ1: jedzie(student, X)
+T2σ1: jedzie(student,X)
+
+MGU(T1,T2) = σ1 = {X=rower}
+
+==============================
+
+T1: para(X,Y)
+T2: para(jacek,ewa)
+
+σ1: X = jacek
+
+1.
+T1σ1: jedzie(jacek, Y)
+T2σ1: jedzie(jacek,ewa)
+
+σ2: Y = ewa
+
+2.
+
+T1σ1σ2: para(jacek,ewa)
+T2σ1σ2: para(jacek,ewa)
+
+MGU(T1, T2) = σ1σ2 = {X=jacek, Y=ewa}
+
+==============================
+
+T1: f(X,a(b,c))
+T2: f(Z,a(Z,c))
+
+σ1: X = Z
+
+1.
+T1σ1: (Z,a(b,c))
+T2σ1: (Z,a(Z,c))
+
+σ2= a(Z,c) = a(b,c)
+
+2.
+
+T1σ1σ2: f(Z,a(b,c))
+T2σ1σ2: f(Z,a(b,c))
+
+MGU(T1, T2) = σ1σ2 = {X=Z, a(Z,c)=a(b,c)}
+
+===============================
+
+T1: fu(a,X,f(g(Y)))
+T2: fu(Y,f(Z),f(Z))
+
+σ1: Y=a
+
+1.
+T1σ1: fu(a,X,f(g(Y)))
+T2σ1: fu(a,f(Z),f(Z))
+
+σ2= X = f(Z)
+2.
+T1σ1σ2: fu(a,f(Z),f(g(Y)))
+T2σ1σ2: fu(a,f(Z),f(Z))
+
+σ3: F(Z)=f(g(Y))
+2:
+
+T1σ1σ2: fu(a,f(Z),f(g(Y)))
+T2σ1σ2: fu(a,f(Z),f(g(Y)))
+
+MGU(T1, T2) = σ1σ2 = {Y=a, X=f(Z)=f(g(Y))}
+
+
+
+
+
+
+
+
+
