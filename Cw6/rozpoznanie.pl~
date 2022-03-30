@@ -1,0 +1,6 @@
+%warunki zakoñczenia rekurencji
+wielomian(X,X).
+wielomian(c,_):-number(c).
+
+%rekurencja
+wielomian(-w,x):-wielomian(W,X).
