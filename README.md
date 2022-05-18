@@ -29,6 +29,8 @@ https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab9.pdf
 LAB10:
 https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab10.pdf
 ==========================================================================
+LAB11:
+https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab11.pdf
 ==========================================================================
 ==========================================================================
 ==========================================================================
