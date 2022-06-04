@@ -32,7 +32,11 @@ https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab10.pdf
 LAB11:
 https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab11.pdf
 ==========================================================================
+LAB12:
+https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab12.pdf
 ==========================================================================
+LAB13:
+https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab13.pdf
 ==========================================================================
 ==========================================================================
 ==========================================================================
